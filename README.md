@@ -1,2 +1,2 @@
-# _ProjetM2_SGW
+# _ProjetM2_Optimus
 Projet pour cours Documents Structurés TAL INALCO M2
