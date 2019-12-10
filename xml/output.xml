@@ -1,0 +1,296 @@
+<Data>
+<Paris>
+	<lieu_tournage>
+		<Nombre>2100</Nombre>
+		<pourcentage>100%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>88</nombre>
+		<pourcentage>100%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>1852</nombre>
+		<pourcentage>100%</pourcentage>
+	</monument>
+</Paris>
+<arron75001>
+	<lieu_tournage>
+		<Nombre>97</Nombre>
+		<pourcentage>4.62%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>1</nombre>
+		<pourcentage>1.14%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>246</nombre>
+		<pourcentage>13.28%</pourcentage>
+	</monument>
+</arron75001>
+<arron75002>
+	<lieu_tournage>
+		<Nombre>62</Nombre>
+		<pourcentage>2.95%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>3</nombre>
+		<pourcentage>3.41%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>114</nombre>
+		<pourcentage>6.16%</pourcentage>
+	</monument>
+</arron75002>
+<arron75003>
+	<lieu_tournage>
+		<Nombre>36</Nombre>
+		<pourcentage>1.71%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>1</nombre>
+		<pourcentage>1.14%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>143</nombre>
+		<pourcentage>7.72%</pourcentage>
+	</monument>
+</arron75003>
+<arron75004>
+	<lieu_tournage>
+		<Nombre>136</Nombre>
+		<pourcentage>6.48%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>1</nombre>
+		<pourcentage>1.14%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>254</nombre>
+		<pourcentage>13.71%</pourcentage>
+	</monument>
+</arron75004>
+<arron75005>
+	<lieu_tournage>
+		<Nombre>107</Nombre>
+		<pourcentage>5.1%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>12</nombre>
+		<pourcentage>13.64%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>108</nombre>
+		<pourcentage>5.83%</pourcentage>
+	</monument>
+</arron75005>
+<arron75006>
+	<lieu_tournage>
+		<Nombre>84</Nombre>
+		<pourcentage>4.0%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>15</nombre>
+		<pourcentage>17.05%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>195</nombre>
+		<pourcentage>10.53%</pourcentage>
+	</monument>
+</arron75006>
+<arron75007>
+	<lieu_tournage>
+		<Nombre>105</Nombre>
+		<pourcentage>5.0%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>0</nombre>
+		<pourcentage>0.0%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>144</nombre>
+		<pourcentage>7.78%</pourcentage>
+	</monument>
+</arron75007>
+<arron75008>
+	<lieu_tournage>
+		<Nombre>155</Nombre>
+		<pourcentage>7.38%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>10</nombre>
+		<pourcentage>11.36%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>110</nombre>
+		<pourcentage>5.94%</pourcentage>
+	</monument>
+</arron75008>
+<arron75009>
+	<lieu_tournage>
+		<Nombre>134</Nombre>
+		<pourcentage>6.38%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>5</nombre>
+		<pourcentage>5.68%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>128</nombre>
+		<pourcentage>6.91%</pourcentage>
+	</monument>
+</arron75009>
+<arron75010>
+	<lieu_tournage>
+		<Nombre>127</Nombre>
+		<pourcentage>6.05%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>3</nombre>
+		<pourcentage>3.41%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>54</nombre>
+		<pourcentage>2.92%</pourcentage>
+	</monument>
+</arron75010>
+<arron75011>
+	<lieu_tournage>
+		<Nombre>85</Nombre>
+		<pourcentage>4.05%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>3</nombre>
+		<pourcentage>3.41%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>42</nombre>
+		<pourcentage>2.27%</pourcentage>
+	</monument>
+</arron75011>
+<arron75012>
+	<lieu_tournage>
+		<Nombre>90</Nombre>
+		<pourcentage>4.29%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>3</nombre>
+		<pourcentage>3.41%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>34</nombre>
+		<pourcentage>1.84%</pourcentage>
+	</monument>
+</arron75012>
+<arron75013>
+	<lieu_tournage>
+		<Nombre>81</Nombre>
+		<pourcentage>3.86%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>5</nombre>
+		<pourcentage>5.68%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>24</nombre>
+		<pourcentage>1.3%</pourcentage>
+	</monument>
+</arron75013>
+<arron75014>
+	<lieu_tournage>
+		<Nombre>60</Nombre>
+		<pourcentage>2.86%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>7</nombre>
+		<pourcentage>7.95%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>53</nombre>
+		<pourcentage>2.86%</pourcentage>
+	</monument>
+</arron75014>
+<arron75015>
+	<lieu_tournage>
+		<Nombre>61</Nombre>
+		<pourcentage>2.9%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>4</nombre>
+		<pourcentage>4.55%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>28</nombre>
+		<pourcentage>1.51%</pourcentage>
+	</monument>
+</arron75015>
+<arron75016>
+	<lieu_tournage>
+		<Nombre>199</Nombre>
+		<pourcentage>9.48%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>1</nombre>
+		<pourcentage>1.14%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>71</nombre>
+		<pourcentage>3.83%</pourcentage>
+	</monument>
+</arron75016>
+<arron75017>
+	<lieu_tournage>
+		<Nombre>87</Nombre>
+		<pourcentage>4.14%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>4</nombre>
+		<pourcentage>4.55%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>23</nombre>
+		<pourcentage>1.24%</pourcentage>
+	</monument>
+</arron75017>
+<arron75018>
+	<lieu_tournage>
+		<Nombre>161</Nombre>
+		<pourcentage>7.67%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>2</nombre>
+		<pourcentage>2.27%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>31</nombre>
+		<pourcentage>1.67%</pourcentage>
+	</monument>
+</arron75018>
+<arron75019>
+	<lieu_tournage>
+		<Nombre>138</Nombre>
+		<pourcentage>6.57%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>6</nombre>
+		<pourcentage>6.82%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>24</nombre>
+		<pourcentage>1.3%</pourcentage>
+	</monument>
+</arron75019>
+<arron75020>
+	<lieu_tournage>
+		<Nombre>95</Nombre>
+		<pourcentage>4.52%</pourcentage>
+	</lieu_tournage>
+	<cinema>
+		<nombre>2</nombre>
+		<pourcentage>2.27%</pourcentage>
+	</cinema>
+	<monument>
+		<nombre>17</nombre>
+		<pourcentage>0.92%</pourcentage>
+	</monument>
+</arron75020>
+</Data>
