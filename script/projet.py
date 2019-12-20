@@ -134,17 +134,17 @@ def write_xml_file(cinemas, lieus, cpt_cinemas, paris_cinema, tournages, monumen
 		xmlfile.write("<Data>\n")
 		# write the first line
 		xmlfile.write(
-			f"<Paris>\n\t<lieu_tournage>\n\t\t<Nombre>{len(lieus)}</Nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</lieu_tournage>\n\t<cinema>\n\t\t<nombre>{len(paris_cinema)}</nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</cinema>\n\t<monument>\n\t\t<nombre>{monuments['nhits']}</nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</monument>\n</Paris>")
+			f"<Paris>\n\t<lieu_tournage>\n\t\t<nombre>{len(lieus)}</nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</lieu_tournage>\n\t<cinema>\n\t\t<nombre>{len(paris_cinema)}</nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</cinema>\n\t<monument>\n\t\t<nombre>{monuments['nhits']}</nombre>\n\t\t<pourcentage>100%</pourcentage>\n\t</monument>\n</Paris>")
 		# write the following lines with a loop
 		for i in arrons:
 			#if cpt_cinemas[i] != 0:
-			xmlfile.write(f"\n<arron{i}>\n\t<lieu_tournage>\n\t\t<Nombre>{cpt_tournages[i]}</Nombre>\n\t\t<pourcentage>{str(round((cpt_tournages[i]/len(lieus))*100, 2)) + '%'}</pourcentage>\n\t</lieu_tournage>\n\t<cinema>\n\t\t<nombre>{cpt_cinemas[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_cinemas[i]/len(paris_cinema))*100, 2)) + '%'}</pourcentage>\n\t</cinema>\n\t<monument>\n\t\t<nombre>{cpt_total_mo[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_total_mo[i]/monuments['nhits'])*100, 2)) + '%'}</pourcentage>\n\t</monument>\n</arron{i}>")
+			xmlfile.write(f"\n<arron{i}>\n\t<lieu_tournage>\n\t\t<nombre>{cpt_tournages[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_tournages[i]/len(lieus))*100, 2)) + '%'}</pourcentage>\n\t</lieu_tournage>\n\t<cinema>\n\t\t<nombre>{cpt_cinemas[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_cinemas[i]/len(paris_cinema))*100, 2)) + '%'}</pourcentage>\n\t</cinema>\n\t<monument>\n\t\t<nombre>{cpt_total_mo[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_total_mo[i]/monuments['nhits'])*100, 2)) + '%'}</pourcentage>\n\t</monument>\n</arron{i}>")
 			#else:
 				#xmlfile.write(f"\t<Arrondissement>{i}</Arrondissement>\n\t<lieu_tournage>\n\t\t<Nombre>{cpt_tournages[i]}</Nombre>\n\t\t<pourcentage>{str(round((cpt_tournages[i]/len(lieus))*100, 2)) + '%'}</pourcentage>\n\t</lieu_tournage>\n\t<cinema>\n\t\t<nombre>{cpt_cinemas[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_cinemas[i]/len(paris_cinema))*100, 2)) + '%'}</pourcentage>\n\t</cinema>\n\t<monument>\n\t\t<nombre>{cpt_total_mo[i]}</nombre>\n\t\t<pourcentage>{str(round((cpt_total_mo[i]/monuments['nhits'])*100, 2)) + '%'}</pourcentage>\n\t</monument>")
 		xmlfile.write("\n</Data>")
 
 
-def write_output_file(cinemas, lieus, cpt_cinemas, paris_cinema, tournages, monuments, cpt_total_mo, cpt_tournages, cpt_total, arrons, file):
+def write_csv_file(cinemas, lieus, cpt_cinemas, paris_cinema, tournages, monuments, cpt_total_mo, cpt_tournages, cpt_total, arrons, file):
 	"""
 	Write an output csv file
 	"""

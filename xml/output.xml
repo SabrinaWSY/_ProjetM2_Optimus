@@ -1,7 +1,8 @@
+<!DOCTYPE Data SYSTEM "file:/Users/siyuwang/Documents/TAL/M2/XML/_ProjetM2_Optimus/grammaire/output.dtd">
 <Data>
 <Paris>
 	<lieu_tournage>
-		<Nombre>2100</Nombre>
+		<nombre>2100</nombre>
 		<pourcentage>100%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -15,7 +16,7 @@
 </Paris>
 <arron75001>
 	<lieu_tournage>
-		<Nombre>97</Nombre>
+		<nombre>97</nombre>
 		<pourcentage>4.62%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -29,7 +30,7 @@
 </arron75001>
 <arron75002>
 	<lieu_tournage>
-		<Nombre>62</Nombre>
+		<nombre>62</nombre>
 		<pourcentage>2.95%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -43,7 +44,7 @@
 </arron75002>
 <arron75003>
 	<lieu_tournage>
-		<Nombre>36</Nombre>
+		<nombre>36</nombre>
 		<pourcentage>1.71%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -57,7 +58,7 @@
 </arron75003>
 <arron75004>
 	<lieu_tournage>
-		<Nombre>136</Nombre>
+		<nombre>136</nombre>
 		<pourcentage>6.48%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -71,7 +72,7 @@
 </arron75004>
 <arron75005>
 	<lieu_tournage>
-		<Nombre>107</Nombre>
+		<nombre>107</nombre>
 		<pourcentage>5.1%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -85,7 +86,7 @@
 </arron75005>
 <arron75006>
 	<lieu_tournage>
-		<Nombre>84</Nombre>
+		<nombre>84</nombre>
 		<pourcentage>4.0%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -99,7 +100,7 @@
 </arron75006>
 <arron75007>
 	<lieu_tournage>
-		<Nombre>105</Nombre>
+		<nombre>105</nombre>
 		<pourcentage>5.0%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -113,7 +114,7 @@
 </arron75007>
 <arron75008>
 	<lieu_tournage>
-		<Nombre>155</Nombre>
+		<nombre>155</nombre>
 		<pourcentage>7.38%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -127,7 +128,7 @@
 </arron75008>
 <arron75009>
 	<lieu_tournage>
-		<Nombre>134</Nombre>
+		<nombre>134</nombre>
 		<pourcentage>6.38%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -141,7 +142,7 @@
 </arron75009>
 <arron75010>
 	<lieu_tournage>
-		<Nombre>127</Nombre>
+		<nombre>127</nombre>
 		<pourcentage>6.05%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -155,7 +156,7 @@
 </arron75010>
 <arron75011>
 	<lieu_tournage>
-		<Nombre>85</Nombre>
+		<nombre>85</nombre>
 		<pourcentage>4.05%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -169,7 +170,7 @@
 </arron75011>
 <arron75012>
 	<lieu_tournage>
-		<Nombre>90</Nombre>
+		<nombre>90</nombre>
 		<pourcentage>4.29%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -183,7 +184,7 @@
 </arron75012>
 <arron75013>
 	<lieu_tournage>
-		<Nombre>81</Nombre>
+		<nombre>81</nombre>
 		<pourcentage>3.86%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -197,7 +198,7 @@
 </arron75013>
 <arron75014>
 	<lieu_tournage>
-		<Nombre>60</Nombre>
+		<nombre>60</nombre>
 		<pourcentage>2.86%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -211,7 +212,7 @@
 </arron75014>
 <arron75015>
 	<lieu_tournage>
-		<Nombre>61</Nombre>
+		<nombre>61</nombre>
 		<pourcentage>2.9%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -225,7 +226,7 @@
 </arron75015>
 <arron75016>
 	<lieu_tournage>
-		<Nombre>199</Nombre>
+		<nombre>199</nombre>
 		<pourcentage>9.48%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -239,7 +240,7 @@
 </arron75016>
 <arron75017>
 	<lieu_tournage>
-		<Nombre>87</Nombre>
+		<nombre>87</nombre>
 		<pourcentage>4.14%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -253,7 +254,7 @@
 </arron75017>
 <arron75018>
 	<lieu_tournage>
-		<Nombre>161</Nombre>
+		<nombre>161</nombre>
 		<pourcentage>7.67%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -267,7 +268,7 @@
 </arron75018>
 <arron75019>
 	<lieu_tournage>
-		<Nombre>138</Nombre>
+		<nombre>138</nombre>
 		<pourcentage>6.57%</pourcentage>
 	</lieu_tournage>
 	<cinema>
@@ -281,7 +282,7 @@
 </arron75019>
 <arron75020>
 	<lieu_tournage>
-		<Nombre>95</Nombre>
+		<nombre>95</nombre>
 		<pourcentage>4.52%</pourcentage>
 	</lieu_tournage>
 	<cinema>

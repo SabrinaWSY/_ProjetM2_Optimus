@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Grammaire DTD du fichier xml généré par projet.py -->
+<!ELEMENT Data (#PCDATA | Paris | arron75001 | arron75002 | arron75003 | arron75004 | arron75005 | arron75006 | arron75007 | arron75008 | arron75009 | arron75010 | arron75011 | arron75012 | arron75013 | arron75014 | arron75015 | arron75016 | arron75017 | arron75018 | arron75019 | arron75020)*>
+<!-- Paris entier -->
+<!ELEMENT Paris (#PCDATA | lieu_tournage | cinema | monument)*>
+<!-- Chaque arrondissement -->
+<!ELEMENT arron75001 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75002 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75003 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75004 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75005 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75006 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75007 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75008 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75009 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75010 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75011 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75012 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75013 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75014 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75015 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75016 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75017 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75018 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75019 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!ELEMENT arron75020 (#PCDATA | lieu_tournage | cinema | monument)*>
+<!-- Pour chaque unité il y a trois catégories-->
+<!ELEMENT lieu_tournage (#PCDATA | nombre | pourcentage | Nombre)*>
+<!ELEMENT cinema (#PCDATA | nombre | pourcentage)*>
+<!ELEMENT monument (#PCDATA | nombre | pourcentage)*>
+<!-- Pour chaque catégorie il y a deux paramètres-->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pourcentage (#PCDATA)>
+
+
+
+
+
+
+
+
+
