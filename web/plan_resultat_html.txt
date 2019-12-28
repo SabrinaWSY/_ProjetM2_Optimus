@@ -1,0 +1,9 @@
+plan pour representation des resultat
+0. présentation des graphes généré par le script
+(chaque point présente un arrondissement)
+1. correlation entre lieux de tournage et monument historiques
+2. correlation entre lieux de tournage et cinema
+3. correlation entre monument historique et cinema
+4. correlation de 3 dimensions si possible
+5. problème rencontré
+6. conclusion

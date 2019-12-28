@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./stylesheet.xsl"?>
+<DOC type="page" nom="presentation">
+
+<INFO>
+	<TITRE> Documents structurés </TITRE>
+	<AUTEUR>Siyu WANG, Shuai GAO et Chen SUN</AUTEUR>
+	<FORMATION>Master 2 TAL IM</FORMATION>
+</INFO>
+
+	<CONTENU>
+		<ART nom="prob" titre="Problématique">
+			<TEXTE>Existe-t-il une corrélation positive entre le nombre de cinéma, le nombre de lieu de tournage et le nombre de monument historique dans les 20 arrondissements de Paris ?</TEXTE>
+		</ART>
+		
+		<ART nom="donnees" titre="Données">
+			<TEXTE>1. LIEUX DE TOURNAGE À PARIS </TEXTE>
+			<TEXTE>CSV: <LIEN url="https://opendata.paris.fr/explore/dataset/tournagesdefilmsparis2011/information/">https://opendata.paris.fr/explore/dataset/tournagesdefilmsparis2011/information/</LIEN></TEXTE>
+			<TEXTE>Origine: OpenData Paris</TEXTE>
+			<TEXTE>Licence: Open Database License (ODbL)</TEXTE>
+			<TEXTE>Producteur: Mairie de Paris / Direction des Affaires Culturelles</TEXTE>
+			<TEXTE>Description: Liste des lieux de tournages extérieurs de longs métrages, séries télévisées et téléfilms à Paris en 2016. </TEXTE>
+			<TEXTE></TEXTE>
+			<TEXTE>2. ÉTABLISSEMENTS CINÉMATOGRAPHIQUES </TEXTE>
+			<TEXTE>CSV: <LIEN url="https://data.iledefrance.fr/explore/dataset/salle_de_cinema_ile-de-france/table/">https://data.iledefrance.fr/explore/dataset/salle_de_cinema_ile-de-france/table/</LIEN></TEXTE>
+			<TEXTE>Origine: OpenData île-de-France</TEXTE>
+			<TEXTE>Licence: Licence ouverte (Etalab)</TEXTE>
+			<TEXTE>Producteur: Centre national du cinéma et de l'image animée (CNC)</TEXTE>
+			<TEXTE>Description: Liste et localisation des établissements cinématographiques au 31.12.2016.</TEXTE>
+			<TEXTE>Opération: Extraction de tous les données en les transformant dans une liste de tuples et comptage du nombre.</TEXTE>
+			<TEXTE></TEXTE>
+			<TEXTE>3. IMMEUBLES PROTÉGÉS AU TITRE DES MONUMENTS HISTORIQUES</TEXTE>
+			<TEXTE>API: <LIEN url="https://data.iledefrance.fr/explore/dataset/immeubles-proteges-au-titre-des- monuments-historiques/api/">https://data.iledefrance.fr/explore/dataset/immeubles-proteges-au-titre-des- monuments-historiques/api/</LIEN></TEXTE>
+			<TEXTE>Origine: OpenData île-de-France</TEXTE>
+			<TEXTE>Licence: Licence ouverte (Etalab)</TEXTE>
+			<TEXTE>Producteur: Ministère de la Culture et de la Communication</TEXTE>
+			<TEXTE>Description: Liste et localisation des Immeubles protégés au titre des Monuments Historiques de toute l’île de France.</TEXTE>	
+		</ART>
+		
+		<ART nom="script" titre="Script">
+			<TEXTE>L’idée du script est de croiser les données des 2 fichiers csv et d'un fichier json de résultat de requête API, trouver des variables en commun pour créer un nouveau fichiers en xml avec les informations pertinentes.</TEXTE>
+			<TEXTE>Le script peut aussi générer des représentations graphiques des données.</TEXTE>
+			<TEXTE>Vous pouvez consulter le script via ce lien: <LIEN url="../script/projet.py">script</LIEN></TEXTE>
+		</ART>
+		
+		<ART nom="etape" titre="Étapes du projet">
+			<TEXTE>- Choix des fichiers de données</TEXTE>
+			<TEXTE>- Définir la problématique</TEXTE>
+			<TEXTE>- Récupération des données</TEXTE>
+			<TEXTE>- Création de l’architecture (dossiers/fichiers) initiale</TEXTE>
+			<TEXTE>- Analyse et sélection des données pertinentes</TEXTE>
+			<TEXTE>- Modélisation et transformation XML</TEXTE>
+			<TEXTE>- Générer les démonstrations graphiques</TEXTE>
+			<TEXTE>- Établissement grammaire de validation DTD</TEXTE>
+			<TEXTE>- Établissement grammaire de validation RNG</TEXTE>
+			<TEXTE>- Page XML Acceuil</TEXTE>
+			<TEXTE>- Page XML présentation du projet</TEXTE>
+			<TEXTE>- Feuille XSLT pour présenter le projet</TEXTE>
+			<TEXTE>- Page HTML pour présenter les résultat</TEXTE>
+		</ART>
+	</CONTENU> 
+</DOC>

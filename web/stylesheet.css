@@ -1,0 +1,351 @@
+/* Définition des éléments html */
+body {
+	margin: 0;
+	padding: 10px 5px;
+	background: url("./image/6.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: rgb(245, 236, 236);
+}
+
+h1 { font-size: 33px; }
+
+h2 { font-size: 20px; }
+
+h3, h4 { font-size: 18px; }
+
+a { color: rgb(10, 10, 10); }
+
+/* Définition des éléments css */
+/* Conteneur (contient l'ensemble des éléments) */
+#wrap {
+margin: 10px 0;
+width: 1050px;
+}
+/* Partie gauche (contient le menu fixe gauche) */
+#left {
+float: left;
+margin: 10px auto 0 15px;
+}
+#menub {
+	width: 210px;
+	margin-top: 8px;
+	padding-bottom: 20px;
+	background:url("./image/8.jpg");
+	position:fixed;
+	padding : 0;
+}
+#menub ul {
+	margin: 5px;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	border: 2px solid rgb(46, 44, 44);
+}
+#menub li {
+	padding:10px 3px;
+	text-align: center;
+	list-style: none;
+	color: rgb(238, 232, 232);
+}
+#menub a {
+	display: block;
+	padding: 6px auto 6px auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(5, 5, 5);
+}
+#menub a:hover { 
+text-decoration: underline;
+background: rgb(243, 226, 183);
+}
+
+#menuh {
+	width: 170px;
+	margin-top: 1px;
+	margin-left: 30px;
+	background: #e6e6ff;
+	border: 5px solid #bbbdb7;
+	position:fixed;
+}
+#menuh ul {
+	margin: 5px;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	border: 3px solid #0FFFF0;
+}
+#menuh a {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	color: #000000;
+}
+#menuh a:hover { 
+text-decoration: underline;
+background: Gray;
+}
+/* Partie droite (contient l'en-tête, le menu horizontal, le bloc central et le pied de page) */
+#right {
+float: right;
+margin: 10px 0;
+width: 800px;
+}
+
+/* En-tête */
+#header {
+	text-align: center;
+	text-transform: uppercase;
+	width: 920px;
+	height: 180px;
+	margin: 0 auto;
+	padding: 0px 60px;
+	background-image: url("./image/8.jpg");
+	border: 3px solid #000000;
+}
+#header h1, h4 {
+	text-align: center;
+	font-weight: normal;
+	color:#020202; /*最上面横框字体*/
+	vertical-align:middle;
+	text-indent:20px;
+}
+
+#header h1:hover {
+	text-shadow: 0 0 0.5em #FFFFFF;
+}
+
+#header h4:hover {
+	text-shadow: 0 0 0.5em #FFFFFF;
+}
+
+/* Menu horizontal */
+#menu {
+	width: 920px;
+	height: 100px;
+	margin: 15px auto;
+	padding: 0px 30px 0px 30px;
+	background: DodgerBlue;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 5px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 20px;
+	margin-right: 3px;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+text-decoration: underline; 
+background: Gray;
+}
+
+/* Bloc central */
+#contenu {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0px 60px;
+	background: #756c57;
+	
+}
+
+#contenu h1, h2, h3 {
+	text-align: center;
+	font-weight: normal;
+	color: rgb(247, 241, 241);
+	padding:20px 0 5px 0;
+}
+
+#contenu h2 {
+	font-size: 25px;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+/*超链接字体颜色*/
+#contenu a {
+	color: #FFFFFF;
+}
+
+#contenu a:hover, #contenu a:focus {
+	color: rgb(181, 195, 233);
+}
+
+#contenu li {
+text-indent:20px;
+list-style-type: square;
+color: rgb(240, 234, 234);
+margin: 10px 10px 10px 50px;
+line-height: 1.5;
+}
+
+/* Pied de page */
+#footer {
+	width: 530px;
+	margin: 0 auto;
+	padding: 0;
+	height: 50px;
+	text-align:right;
+	font-size: 11px;
+	
+}
+
+.CONSIGNE {
+padding-left: 30px; 
+text-align: justify;
+}
+
+.reponse {
+padding-left: 20px;
+padding-bottom: 10px;
+text-align: justify;
+line-height: 1.5;
+}
+
+.texte {
+padding-left: 20px;
+padding-bottom: 20px;
+text-align: justify;
+line-height: 1.5;
+color: rgb(250, 248, 248);/*中间好几段字体*/
+}
+
+.code {
+	font-family: Courier New;
+	font-size: 12px;
+}
+
+.image {
+text-align: center;
+padding: 20px;
+
+}
+
+.table {
+padding-bottom: 20px;
+border-bottom: solid;
+border-color: LightGray ;
+}
+
+.titremenu {
+font-weight: bold;
+font-size: 11pt;
+}
+
+.sstitre {
+font-weight: bold;
+text-decoration: underline;
+padding: 40px 0 10px 10px;
+}
+
+/* Pour la zone téléchargements */
+.dl {
+padding-left: 60px;
+padding-bottom: 20px;
+padding-top: 0px;
+}
+
+/* SLIMBOX */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 50%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(images/template/loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(images/template/prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(images/template/nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid rgb(12, 11, 11);
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(images/template/closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}

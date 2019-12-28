@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./stylesheet.xsl"?>
+<DOC type="page" nom="Accueil">
+
+<INFO>
+	<TITRE> Documents structurés </TITRE>
+	<AUTEUR>Siyu WANG, Shuai GAO et Chen SUN</AUTEUR>
+	<FORMATION>Master 2 TAL IM</FORMATION>
+</INFO>
+
+<CONTENU>
+
+<ART entete="Bienvenue !">
+	<TEXTE>Ce site a été réalisé dans le cadre du cours «Documents structurés » du M2 TAL IM  ( <LIEN url="http://www.inalco.fr/">INALCO</LIEN>)</TEXTE>
+	<TEXTE>Ce page est entièrement codé en XML, puis les pages des résultats sont codés en HTML.</TEXTE>
+	<TEXTE>Ils s'agissent d'une présentation du projet et une représentation des résultats obtenus.</TEXTE>
+</ART>
+
+<ART nom="site" titre="Réalisation du site">
+	<TEXTE>Les documents xml font appel à une feuille de transformation XSLT dans laquelle est défini le corps du document HTML à générer en sortie et dont le contenu est extrait du document XML par l'utilisation du langage XSLT et des requêtes XPath.</TEXTE> 
+	<TEXTE>La structure "visuelle" du site est générée par une feuille de style CSS.</TEXTE>
+	<TEXTE>Nous tenons à remercier Monsieur Arthur PROVENIER pour avoir dirigé ce cours et nous a accompagné durant tout le semestre.</TEXTE>
+</ART>
+
+<ART nom="about" titre="À propos">
+	<TEXTE></TEXTE>
+</ART>
+</CONTENU>
+</DOC>
