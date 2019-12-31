@@ -1,0 +1,101 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="Data">
+			<element name="Paris">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75001">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75002">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75003">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75004">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75005">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75006">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75007">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75008">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75009">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75010">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75011">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75012">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75013">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75014">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75015">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75016">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75017">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75018">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75019">
+				<ref name="datas"/>
+			</element>
+			<element name="arron75020">
+				<ref name="datas"/>
+			</element>
+		</element>
+	</start>
+
+	<define name="datas">
+		<ref name="lieuR"/>
+		<ref name="cinemaR"/>
+		<ref name="monumentR"/>
+	</define>
+
+	<define name="lieuR">
+		<element name="lieu_tournage">
+			<ref name="donnee"/>
+		</element>
+	</define>
+	<define name="cinemaR">
+		<element name="cinema">
+			<ref name="donnee"/>
+		</element>
+	</define>
+	<define name="monumentR">
+		<element name="monument">
+			<ref name="donnee"/>
+		</element>
+	</define>
+
+	<define name="donnee">
+		<element name="nombre">
+			<data type="integer"/>
+		</element>
+		<element name="pourcentage">
+			<data type="string"/>
+		</element>
+	</define>
+
+</grammar>

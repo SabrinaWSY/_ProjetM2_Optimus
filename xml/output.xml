@@ -1,4 +1,6 @@
 <!DOCTYPE Data SYSTEM "file:/Users/siyuwang/Documents/TAL/M2/XML/_ProjetM2_Optimus/grammaire/output.dtd">
+<?xml-model href="output.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
 <Data>
 <Paris>
 	<lieu_tournage>
