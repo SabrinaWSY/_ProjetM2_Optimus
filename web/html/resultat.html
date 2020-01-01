@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Résultats</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href = "../index.xml">
+                        <li>Page d'accueil</li>
+                    </a>
+                </ul>
+            </nav>
+            <h1>Résultats</h1>
+            <h2>Graphes</h2>
+            <h2>Corrélations</h2>
+            <h3>Lieux de tournage & Monuments historiques</h3>
+            <h3>Lieux de tournage & Cinemas</h3>
+            <h3>Monuments historiques & Cinemas</h3>
+            <h3>Trois dimensions</h3>
+            <h1>Problèmes rencontrés</h1>
+                <p>
+                    1. Erreur de saisie pour les codes d’arrondissement (Par exemple, 6 chiffres au lieu de 5 pour le code postal dans le document source).
+                </p>
+                <p>
+                    2. Pour visualiser le fichier xml avec transformation xslt, il faut une version 6xx de firefox. Les nouvelles versions de 7xx ne prennent pas en compte la feuille xsl ni le css.
+                </p>
+                <p>
+                    3. DES DONNÉES MAL TAPÉES ! Un monument parisien du 20ème arrondissement qui porte un code_insee 20120!!! Mais comme cette donnée vient du lien API, nous ne pouvons pas la corriger.
+                </p>
+                <p>
+                    4. Pour le fichier csv de lieu de tournage, il y a des doublons d’adresse parce qu’un lieu de tournage peut être filmé par plusieurs films ou séries, donc pour le comptage des lieus de tournage, nous avons nettoyé les données et supprimé les doublons avec set() avant de faire le comptage. 
+                </p>
+                <p>
+                    5. Il n’y pas de cinema dans le 7ème arrondissement (quelle tristesse !), donc pour les colonnes des calcul de ratio pourcentage, nous étions obligés d’ajouter les condition ‘if cpt_cinemas[i] != 0’.
+                </p>
+            <h1>Conclusion</h1>
+        </header>
+        <section>
+
+        </section>
+        <footer>
+            <p>&copy; INaLCO M2 Ingénierie Multilingue, Siyu WANG, Chen SUN et Shuai GAO</p>
+        </footer>
+    </body>
+</html>
