@@ -1,0 +1,229 @@
+body {
+	background: url("../image/6.jpg"); margin: 0px; padding: 10px 5px; color: rgb(245, 236, 236); font-family: Arial, Helvetica, sans-serif; font-size: 17px;
+}
+h1 {
+	font-size: 33px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 18px;
+}
+a {
+	color: rgb(10, 10, 10);
+}
+#wrap {
+	margin: 10px 0px; width: 1050px;
+}
+#left {
+	margin: 10px auto 0px 15px; float: left;
+}
+#menub {
+	background: url("../image/8.jpg"); padding: 0px; width: 210px; margin-top: 8px; position: fixed;
+}
+#menub ul {
+	list-style: none; margin: 5px; padding: 0px; border: 2px solid rgb(46, 44, 44); border-image: none; text-align: center; line-height: normal;
+}
+#menub li {
+	list-style: none; padding: 10px 3px; text-align: center; color: rgb(238, 232, 232);
+}
+#menub a {
+	text-align: center; color: rgb(5, 5, 5); text-transform: uppercase; font-size: 15px; text-decoration: none; display: block;
+}
+#menub a:hover {
+	background: rgb(243, 226, 183); text-decoration: underline;
+}
+#menuh {
+	background: rgb(230, 230, 255); border: 5px solid rgb(187, 189, 183); border-image: none; width: 170px; margin-top: 1px; margin-left: 30px; position: fixed;
+}
+#menuh ul {
+	list-style: none; margin: 5px; padding: 0px; border: 3px solid rgb(15, 255, 240); border-image: none; text-align: center; line-height: normal;
+}
+#menuh a {
+	text-align: center; color: rgb(0, 0, 0); font-size: 15px; display: block;
+}
+#menuh a:hover {
+	background: gray; text-decoration: underline;
+}
+#right {
+	margin: 10px 0px; width: 800px; float: right;
+}
+#header {
+	margin: 0px auto; padding: 0px 60px; border: 3px solid rgb(0, 0, 0); border-image: none; width: 920px; height: 180px; text-align: center; text-transform: uppercase; background-image: url("../image/8.jpg");
+}
+#header h1 {
+	text-align: center; color: rgb(2, 2, 2); text-indent: 20px; font-weight: normal; vertical-align: middle;
+}
+h4 {
+	text-align: center; color: rgb(2, 2, 2); text-indent: 20px; font-weight: normal; vertical-align: middle;
+}
+#header h1:hover {
+	text-shadow: 0px 0px 0.5em #fff;
+}
+#header h4:hover {
+	text-shadow: 0px 0px 0.5em #fff;
+}
+#menu {
+	background: dodgerblue; margin: 15px auto; padding: 0px 30px; width: 920px; height: 100px;
+}
+#menu ul {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 5px; line-height: normal;
+}
+#menu li {
+	float: left; display: block;
+}
+#menu a {
+	padding: 15px 20px; height: 20px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 12px; text-decoration: none; margin-right: 3px; float: left; display: block;
+}
+#menu a:hover {
+	background: gray; text-decoration: underline;
+}
+#contenu {
+	background: rgb(199, 178, 131); margin: 0px auto; padding: 0px 60px; width: 920px;
+}
+#contenu h1 {
+	padding: 20px 0px 5px; text-align: center; color: rgb(53, 52, 52); font-weight: normal;
+}
+h2 {
+	padding: 20px 0px 5px; text-align: center; color: rgb(53, 52, 52); font-weight: normal;
+}
+h3 {
+	padding: 20px 0px 5px; text-align: left; color: rgb(53, 52, 52); font-weight: bold;
+}
+#contenu h2 {
+	color: rgb(53, 52, 52); text-transform: uppercase; font-size: 25px; font-weight: 800;
+}
+#contenu a {
+	color: rgb(255, 255, 255);
+}
+#contenu a:hover {
+	color: rgb(181, 195, 233);
+}
+#contenu a:focus {
+	color: rgb(181, 195, 233);
+}
+#contenu li {
+	margin: 10px 10px 10px 50px; color: rgb(240, 234, 234); line-height: 1.5; text-indent: 20px; list-style-type: square;
+}
+#footer {
+	margin: 0px auto;
+	padding: 0px;
+	width: 530px;
+	height: 50px;
+	text-align: right;
+	font-size: 11px;
+	color: #000
+}
+.CONSIGNE {
+	text-align: justify; padding-left: 30px;
+}
+.reponse {
+	text-align: justify; line-height: 1.5; padding-bottom: 10px; padding-left: 20px;
+}
+.texte {
+	text-align: justify;
+	color: rgb(53, 52, 52);
+	line-height: 1.5;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+	font-family: 'Roboto Slab',serif;
+}
+.code {
+	font-family: Courier New; font-size: 12px;
+}
+.image {
+	padding: 20px; text-align: center;
+}
+.table {
+	border-color: rgb(44, 44, 44); padding-bottom: 20px; border-bottom-width: medium; border-bottom-style: solid;
+}
+.titremenu {
+	font-size: 11pt; font-weight: bold;
+}
+.sstitre {
+	padding: 40px 0px 10px 10px; font-weight: bold; text-decoration: underline;
+}
+.dl {
+	padding-top: 0px; padding-bottom: 20px; padding-left: 60px;
+}
+#lbOverlay {
+	left: 0px; top: 0px; width: 50%; height: 50%; position: fixed; z-index: 9999; cursor: pointer; background-color: rgb(0, 0, 0);
+}
+#lbCenter {
+	overflow: hidden; position: absolute; z-index: 9999; background-color: rgb(255, 255, 255);
+}
+#lbBottomContainer {
+	overflow: hidden; position: absolute; z-index: 9999; background-color: rgb(255, 255, 255);
+}
+.lbLoading {
+	background: url("../images/template/loading.gif") no-repeat center rgb(255, 255, 255);
+}
+#lbImage {
+	border: 10px solid rgb(255, 255, 255); border-image: none; left: 0px; top: 0px; position: absolute; background-repeat: no-repeat;
+}
+#lbPrevLink {
+	top: 0px; width: 50%; display: block; position: absolute;
+}
+#lbNextLink {
+	top: 0px; width: 50%; display: block; position: absolute;
+}
+#lbPrevLink {
+	left: 0px;
+}
+#lbPrevLink:hover {
+	background: url("../images/template/prevlabel.gif") no-repeat 0px 15%;
+}
+#lbNextLink {
+	right: 0px;
+}
+#lbNextLink:hover {
+	background: url("../images/template/nextlabel.gif") no-repeat 100% 15%;
+}
+#lbBottom {
+	border-width: 10px; border-style: none solid solid; border-color: rgb(12, 11, 11); border-image: none; text-align: left; color: rgb(102, 102, 102); line-height: 1.4em; font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 10px;
+}
+#lbCloseLink {
+	background: url("../images/template/closelabel.gif") no-repeat center; margin: 5px 0px; width: 66px; height: 22px; float: right; display: block;
+}
+#lbCaption {
+	margin-right: 71px;
+}
+#lbNumber {
+	margin-right: 71px;
+}
+#lbCaption {
+	font-weight: bold;
+}
+
+img{
+	max-width: 100%;
+	text-align: center;
+}
+
+.graphe{
+	display: block;
+	max-width: 600px;
+	margin: 0 auto 30px;
+}
+
+P{
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color:#616161
+}
+
+.legende{
+	text-align: center;
+}
+
+#tableau{
+	max-width: 600px;
+	display: block;
+	text-align: center;
+}

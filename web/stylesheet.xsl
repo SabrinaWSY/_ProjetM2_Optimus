@@ -46,7 +46,7 @@
 
 				<li><a href="./index.xml">Accueil</a></li>
 				<li><a href="./presentation.xml">Présentation</a></li>
-				<li><a href="./html/resultat.html">Résultat</a></li>
+				<li><a href="html/resultat.html">Résultats</a></li>
 				
 				<li><a href="#wrap">[Retour haut de page]</a></li>
 

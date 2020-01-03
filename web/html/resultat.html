@@ -1,0 +1,110 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+  <HEAD>
+    <META charset="UTF-8">
+    <META content="IE=5.0000" http-equiv="X-UA-Compatible">
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <TITLE>Résultats</TITLE>
+    <SCRIPT src="" type="text/javascript"></SCRIPT>
+    <LINK href="stylesheet.css" rel="stylesheet" type="text/css">
+    <LINK href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
+  </HEAD> 
+
+  <BODY>
+    <DIV id="wrap">
+    
+    <DIV id="right">
+    
+    <DIV id="header">
+      <H1>Documents structurés</H1>
+      <H4>Master 2 TAL IM</H4>
+      <H4>Siyu WANG, Shuai GAO et Chen SUN</H4>
+    </DIV>
+    
+    <DIV id="contenu">
+    
+    <DIV class="table">
+      <H2>Résultats</H2>
+      <IMG src="../image/Data_par_arrondissement.png" id="data">
+        <P class="legende">Statistiques par arrondissement</P>
+        <SPAN class="texte">Une fois graphe généré, nous l'observons et supposons par intuition qu'il existe peut-être des corrélations entre ces trois éléments.</SPAN>
+
+      <BR>
+    </DIV>
+
+    <DIV class="table">
+      <H2>Graphes</H2>
+      <IMG src="../image/cinema.png" class="graphe">
+        <P class="legende">Distribution des cinémas dans les 20 arrondissements de Paris</P>
+        <BR>
+      <IMG src="../image/monument.png" class="graphe">
+        <P class="legende">Distribution des monuments historiques dans les 20 arrondissements de Paris</P>
+        <BR>
+      <IMG src="../image/tournage.png" class="graphe">
+        <P class="legende">Distribution des lieux de tournage dans les 20 arrondissements de Paris</P>
+      <BR>
+    </DIV>
+        
+    <DIV class="table">
+      <H2>Corrélations</H2>
+      <H3>Script Python</H3>
+        <A href="../../script/correlations.py"> 
+          <IMG src="../image/script_correl.png">
+        </A>
+          
+        <H3>Taux de corrélation</H3>
+          <IMG src="../image/correlation.png" id="tableau">
+            <BR>
+    </DIV>
+
+    <DIV class="table">
+      <H2 id="etape">Problèmes rencontrés</H2>
+        <SPAN class="texte">1. Erreur de saisie pour les codes d’arrondissement (Par exemple, 6 chiffres au lieu de 5 pour le code postal dans le document source).</SPAN>
+          <BR>
+          <BR>
+        <SPAN class="texte">2. Pour visualiser le fichier xml avec transformation xslt, il faut une version 6xx de firefox. Les nouvelles versions de 7xx ne prennent pas en compte la feuille xsl ni le css.</SPAN>
+          <BR>
+          <BR>
+        <SPAN class="texte">3. DES DONNÉES MAL TAPÉES ! Un monument parisien du 20ème arrondissement qui porte un code_insee 20120!!! Mais comme cette donnée vient du lien API, nous ne pouvons pas la corriger.</SPAN>
+          <BR>
+          <BR>
+        <SPAN class="texte">4. Pour le fichier csv de lieu de tournage, il y a des doublons d’adresse parce qu’un lieu de tournage peut être filmé par plusieurs films ou séries, donc pour le comptage des lieus de tournage, nous avons nettoyé les données et supprimé les doublons avec set() avant de faire le comptage.</SPAN>
+          <BR>
+          <BR>
+        <SPAN class="texte">5. Il n’y a pas de cinema dans le 7ème arrondissement (quelle tristesse !), donc pour les colonnes des calcul de ratio pourcentage, nous étions obligés d’ajouter les condition ‘if cpt_cinemas[i] != 0’.</SPAN>
+          <BR>
+          <BR>
+    </DIV>
+
+    <DIV class="table">
+      <H2 id="conclusion">Conclusion</H2>
+      <SPAN class="texte">Contrairement à notre supposition, le nombre de cinémas, le nombre des lieux de tournage et le nombre des monuments historiques n'ont pas de corrélations d'après ce que montre le calcul de taux de corrélation s'avérant très faible.</SPAN>
+      <BR>
+      <BR>
+    </DIV>
+
+      <DIV id="footer">
+        <BR>
+          Master 2 TAL Ingénierie Multilingue - Siyu WANG, Shuai GAO et Chen SUN - Année 2019/2020
+        <BR>
+      </DIV>
+
+    </DIV>
+
+    </DIV>
+
+      <DIV id="left">
+      <DIV id="menub">
+        <UL>
+          <LI><A href="../index.xml">Accueil</A></LI>
+          <LI><A href="../presentation.xml">Présentation</A></LI>
+          <LI><A href="resultat.html">Résultat</A></LI>
+          <LI><A href="resultat.html#wrap">[Retour haut de page]</A></LI>
+        </UL>
+      </DIV>
+      </DIV>
+
+    </DIV>
+  </BODY>
+</HTML>
