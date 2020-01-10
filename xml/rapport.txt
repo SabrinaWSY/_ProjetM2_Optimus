@@ -1,8 +1,7 @@
 ********************************************
 **************** Rapport *******************
 ********************************************
-Ce fichier xml est généré automatiquement par 
-le script python : ./script/projet.py
+Ce fichier xml est généré automatiquement par le script python : ./script/projet.py
 
 Nous avons extrait les inforamtions suivantes:
  - Les 20 arrondissements de Paris
