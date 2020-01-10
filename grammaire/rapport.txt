@@ -1,1 +1,7 @@
 
+********************************************
+**************** Rapport *******************
+********************************************
+
+La grammaire DTD et le schéma RelaxNG sont manuellement créés
+et permettent la validation de notre document xml.
