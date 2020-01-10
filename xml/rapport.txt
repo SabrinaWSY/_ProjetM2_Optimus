@@ -1,0 +1,15 @@
+********************************************
+**************** Rapport *******************
+********************************************
+Ce fichier xml est généré automatiquement par 
+le script python : ./script/projet.py
+
+Nous avons extrait les inforamtions suivantes:
+ - Les 20 arrondissements de Paris
+ - Nombre total de cinema à Paris
+ - Nombre total de monuments historiques à Paris
+ - Nombre total de lieux de tournage à Paris
+ - Nombre de cinema dans chaques arrondissements
+ - Nombre de monuments dans chaques arrondissements
+ - Nombre de lieux de tournage dans chaques arrondissements
+ - Pourcentages des nombres calculés dans chaques arrondissements
