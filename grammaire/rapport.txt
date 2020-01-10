@@ -1,1 +1,7 @@
 
+********************************************
+**************** Rapport *******************
+********************************************
+
+Ces fichiers de grammaire sont manuellement créés
+et permettent de valider le fichier xml.
