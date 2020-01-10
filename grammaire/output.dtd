@@ -31,12 +31,3 @@
 <!-- Pour chaque catégorie il y a deux paramètres-->
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT pourcentage (#PCDATA)>
-
-
-
-
-
-
-
-
-
