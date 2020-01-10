@@ -2,7 +2,7 @@
 Projet pour cours Documents Structurés TAL INALCO M2
 
 # Problématique
-Existe-t-il une corrélation positive entre le nombre de cinéma, le nombre de lieu de tournage et le nombre de monument historique dans les 20 arrondissements de Paris ?
+Existe-t-il une corrélation positive entre le nombre de cinémas, le nombre de lieux de tournage et le nombre de monuments historiques dans les 20 arrondissements de Paris ?
 
 # Visualisation
 - Page d'acceuil en xml avec transformation xslt : web/index.xml
@@ -17,5 +17,5 @@ Existe-t-il une corrélation positive entre le nombre de cinéma, le nombre de l
 - xml : le ficher output xml généré par le script python
 
 # Attention 
-- Nous avons remarqué que la nouvelle version de Firefox ne peut pas afficher la page xml correctement, puisqu'il ne prend pas en compte la feuille xslt. If faut donc une version de 6.xxx de Firefox pour le visualisé.
+- Nous avons remarqué que la nouvelle version de Firefox ne peut pas afficher correctement la page xml, puisqu'il ne prend pas en compte la feuille xslt. If faut donc une version de 6.xxx de Firefox pour la visualiser.
 - PS : Si vous n'arrivez pas à visualiser le page xml, il y a une video de visualistation dans cette repo :)
