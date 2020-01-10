@@ -18,3 +18,4 @@ Existe-t-il une corrélation positive entre le nombre de cinéma, le nombre de l
 
 # Attention : 
 - Nous avons remarqué que la nouvelle version de Firefox ne peut pas afficher la page xml correctement, puisqu'il ne prend pas en compte la feuille xslt. If faut donc une version de 6.xxx de Firefox pour le visualisé.
+- PS : Si vous n'arrivez pas à visualiser le page xml, il y a une video de visualistation dans cette repo :)
